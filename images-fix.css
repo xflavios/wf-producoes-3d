@@ -1,1 +1,39 @@
-.sprite-photo{background-image:url('./produtos-sprite.jpg?v=3')!important;background-size:400% 400%;background-repeat:no-repeat;background-color:#f1edf3}
+.sprite-photo{
+  background-image:url('./produtos-sprite.jpg?v=4')!important;
+  background-size:400% 400%;
+  background-repeat:no-repeat;
+  background-color:#f4f1f5;
+  image-rendering:auto;
+}
+
+/* Evita ampliar cada recorte do mosaico além da resolução disponível. */
+.product-media{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  overflow:hidden;
+}
+.modal-media{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+.modal-main.sprite-photo{
+  width:min(100%,400px)!important;
+  height:auto!important;
+  aspect-ratio:1/1;
+  flex:0 0 auto;
+}
+
+@media(max-width:480px){
+  .product-card{
+    width:min(100%,320px);
+    margin-inline:auto;
+  }
+  .product-media{
+    max-height:320px;
+  }
+  .modal-main.sprite-photo{
+    width:min(100%,340px)!important;
+  }
+}
