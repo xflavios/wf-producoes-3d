@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Catálogo da W.F Produções 3D: porta-latas, porta-chaves automotivos e produtos personalizados em impressão 3D.">
+  <meta name="theme-color" content="#ff7200">
+  <title>W.F Produções 3D | Catálogo</title>
+  <link rel="icon" href="logo-wf.jpg">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <a class="brand" href="#inicio" aria-label="W.F Produções 3D">
+        <img src="logo-wf.jpg" alt="Logomarca W.F Produções 3D">
+        <span><strong>W.F Produções 3D</strong><small>Utilidades e personalizados</small></span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu">☰</button>
+      <nav class="nav">
+        <a href="#produtos">Produtos</a>
+        <a href="#personalizados">Personalizados</a>
+        <a href="#como-comprar">Como comprar</a>
+      </nav>
+      <button class="cart-button" type="button" data-open-cart>
+        Orçamento <span data-cart-count>0</span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Impressão 3D feita para você</span>
+          <h1>Produtos úteis com personalidade.</h1>
+          <p>Porta-latas, porta-chaves automotivos, acessórios gamer e projetos personalizados produzidos sob encomenda.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#produtos">Ver catálogo</a>
+            <a class="button ghost" href="#personalizados">Pedir personalizado</a>
+          </div>
+          <div class="hero-points">
+            <span>✓ Escolha de cores</span>
+            <span>✓ Produção artesanal</span>
+            <span>✓ Pedido pelo WhatsApp</span>
+          </div>
+        </div>
+        <div class="hero-logo-card">
+          <img src="logo-wf.jpg" alt="W.F Produções 3D">
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="container benefit-grid">
+        <div><strong>Feito sob encomenda</strong><span>Produção após confirmação</span></div>
+        <div><strong>Personalização</strong><span>Cores, nomes e detalhes</span></div>
+        <div><strong>Atendimento direto</strong><span>Finalize pelo WhatsApp</span></div>
+      </div>
+    </section>
+
+    <section class="section" id="produtos">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="eyebrow">Catálogo</span>
+            <h2>Produtos disponíveis</h2>
+          </div>
+          <p>Os valores ficam sob consulta para permitir personalização de cor, modelo e acabamento.</p>
+        </div>
+
+        <div class="tools">
+          <label class="search">
+            <span>⌕</span>
+            <input id="search-input" type="search" placeholder="Buscar produto...">
+          </label>
+          <select id="sort-select" aria-label="Ordenar produtos">
+            <option value="featured">Destaques</option>
+            <option value="name">Nome A–Z</option>
+          </select>
+        </div>
+
+        <div class="chips" id="category-chips"></div>
+        <div class="result-line">
+          <span id="results-count"></span>
+          <button id="clear-filters" type="button" hidden>Limpar filtros</button>
+        </div>
+        <div class="product-grid" id="product-grid"></div>
+        <div class="empty" id="empty-state" hidden>
+          <strong>Nenhum produto encontrado.</strong>
+          <button class="button secondary" id="empty-clear" type="button">Ver todos</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="custom section" id="personalizados">
+      <div class="container custom-grid">
+        <div>
+          <span class="eyebrow">Projeto personalizado</span>
+          <h2>Tem uma ideia ou modelo diferente?</h2>
+          <p>Envie uma referência, foto ou medida. A W.F Produções 3D analisa o projeto e prepara um orçamento.</p>
+          <a class="button primary" id="custom-whatsapp" target="_blank" rel="noopener">Solicitar orçamento</a>
+        </div>
+        <div class="steps">
+          <article><span>1</span><div><strong>Envie a ideia</strong><p>Foto, desenho, modelo ou medida.</p></div></article>
+          <article><span>2</span><div><strong>Escolha os detalhes</strong><p>Cor, nome, tamanho e acabamento.</p></div></article>
+          <article><span>3</span><div><strong>Confirme o pedido</strong><p>Prazo e entrega são combinados no atendimento.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section how" id="como-comprar">
+      <div class="container">
+        <div class="section-heading centered">
+          <div><span class="eyebrow">Pedido simples</span><h2>Como comprar</h2></div>
+        </div>
+        <div class="how-grid">
+          <article><b>01</b><h3>Escolha</h3><p>Adicione o produto ao orçamento.</p></article>
+          <article><b>02</b><h3>Informe os detalhes</h3><p>Cor, modelo, nome e quantidade.</p></article>
+          <article><b>03</b><h3>Envie</h3><p>O pedido abre pronto no WhatsApp.</p></article>
+          <article><b>04</b><h3>Confirme</h3><p>Combine valor, prazo e entrega.</p></article>
+        </div>
+        <p class="brand-note">Produtos artesanais independentes. Imagens de referência podem conter elementos visuais de terceiros; os nomes do catálogo são genéricos e não indicam vínculo oficial ou licenciamento.</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <img src="logo-wf.jpg" alt="">
+        <div><strong>W.F Produções 3D</strong><span>Utilidades e personalizados</span></div>
+      </div>
+      <div><strong>Catálogo</strong><a href="#produtos">Produtos</a><a href="#personalizados">Personalizados</a></div>
+      <div><strong>Atendimento</strong><a id="footer-whatsapp" target="_blank" rel="noopener">WhatsApp</a><span>Valores e prazos sob consulta</span></div>
+    </div>
+    <div class="container footer-bottom">© <span id="year"></span> W.F Produções 3D</div>
+  </footer>
+
+  <button class="floating-whatsapp" id="floating-whatsapp" type="button" aria-label="Falar no WhatsApp">☏</button>
+
+  <div class="modal-backdrop" id="product-modal" hidden>
+    <section class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <button class="close" type="button" data-close-modal aria-label="Fechar">×</button>
+      <div id="product-modal-content"></div>
+    </section>
+  </div>
+
+  <div class="drawer-backdrop" id="cart-backdrop" hidden></div>
+  <aside class="cart-drawer" id="cart-drawer" aria-hidden="true">
+    <div class="cart-head">
+      <div><span class="eyebrow">Seu pedido</span><h2>Orçamento</h2></div>
+      <button class="close" type="button" data-close-cart>×</button>
+    </div>
+    <div class="cart-items" id="cart-items"></div>
+    <div class="cart-empty" id="cart-empty"><span>🛒</span><strong>Seu orçamento está vazio</strong></div>
+    <div class="cart-foot">
+      <label>Observações<textarea id="cart-notes" rows="4" placeholder="Ex.: cor azul, nome do carro, 2 unidades..."></textarea></label>
+      <button class="button whatsapp" id="send-whatsapp" type="button">Enviar pelo WhatsApp</button>
+    </div>
+  </aside>
+
+  <div class="toast" id="toast"></div>
+
+  <script src="products.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

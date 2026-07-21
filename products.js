@@ -1,0 +1,12 @@
+const STORE_CONFIG={name:'W.F Produções 3D',whatsappNumber:'5511999999999'};const PRODUCTS=[
+{id:1,name:'Porta-lata 3 em 1 — Vermelho',category:'Porta-latas',image:0,badge:'Várias cores',short:'Suporte para lata com alça e tampa abridora.',features:['Compatível com lata de 473 ml','Alça lateral','Tampa abridora'],gallery:[0,8]},
+{id:2,name:'Porta-lata 3 em 1 — Amarelo',category:'Porta-latas',image:1,short:'Modelo funcional com alça e tampa abridora.',features:['Compatível com lata de 473 ml','Cor amarela'],gallery:[1,8]},
+{id:3,name:'Porta-lata 3 em 1 — Verde',category:'Porta-latas',image:2,short:'Porta-lata artesanal em impressão 3D.',features:['Compatível com lata de 473 ml','Cor verde'],gallery:[2,8]},
+{id:4,name:'Porta-lata 3 em 1 — Lilás',category:'Porta-latas',image:3,short:'Opção lilás para uso ou presente.',features:['Compatível com lata de 473 ml','Cor lilás'],gallery:[3,8]},
+{id:5,name:'Porta-lata 3 em 1 — Preto',category:'Porta-latas',image:4,badge:'Clássico',short:'Visual discreto com acabamento esportivo.',features:['Compatível com lata de 473 ml','Cor preta'],gallery:[4,8]},
+{id:6,name:'Porta-lata 3 em 1 — Azul',category:'Porta-latas',image:5,short:'Versão azul com alça integrada.',features:['Compatível com lata de 473 ml','Cor azul'],gallery:[5,8]},
+{id:7,name:'Porta-lata 3 em 1 — Branco',category:'Porta-latas',image:6,short:'Modelo branco com visual limpo.',features:['Compatível com lata de 473 ml','Cor branca'],gallery:[6,8]},
+{id:8,name:'Porta-lata 3 em 1 — Rosa',category:'Porta-latas',image:7,badge:'Destaque',short:'Versão rosa com detalhe decorativo.',features:['Compatível com lata de 473 ml','Cor rosa'],gallery:[7,8]},
+{id:9,name:'Porta-chaves Automotivo Personalizado',category:'Porta-chaves',image:9,badge:'Personalizável',short:'Porta-chaves inspirado na traseira de carros, com nome e cores personalizados.',features:['Modelos variados','Nome do carro personalizável','Ganchos para organizar chaves'],gallery:[9,10,11,12,13]},
+{id:10,name:'Suporte Gamer para Controle',category:'Gamer',image:14,badge:'Personalizável',short:'Base decorativa para apoiar controle de videogame.',features:['Apoio para controle','Tema e cores personalizados'],gallery:[14]}
+];
